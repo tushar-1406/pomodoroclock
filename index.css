@@ -1,0 +1,94 @@
+body {
+    background-color: #d18f3fb9;
+}
+
+.container {
+    height: 460px;
+    width: 220px;
+    box-shadow: 5px 10px 10px rgba(73,60,49,0.8);
+    background-color: #1d160e;
+    opacity: 0.8;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 50px;
+}
+#display{
+    
+    border: 10px solid teal;
+    height: 40%;
+    margin: 0px;
+    padding: 0%;
+    background-color: white;
+    
+}
+#stopwatch{
+    text-align: center;
+    margin-top: 60px;
+}
+#timercontainer{
+    margin-top: 5px;
+height: 250px;
+/* border: solid black; */
+}
+#heading{
+    color: white;
+    text-align: center;
+    padding: 2px;
+    margin: 0px;
+
+}
+p{
+    color: white;
+    margin: 0px;
+}
+#timers{
+    height: 90px;
+    /* border: solid black; */
+    display: inline-flex;
+    
+    margin-left: 5px;
+}
+#studying{
+    color: teal;
+}
+#playing{
+    color: sienna;
+}
+
+#buttons{
+    height: 100px;
+    /* border: solid black; */
+    cursor: pointer;
+}
+.button{
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+    border: rgb(20, 20, 20);
+    background-color:#000000;
+    color: white;
+    margin-top: 6px;
+    margin-right: 10px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.time{
+    margin-left: 20px;
+    margin-top: 2px;
+    color: white;
+}
+h3{
+    text-align: center;
+    font-size: 15px;
+}
+.smallbtn{
+    border: rgb(20, 20, 20);
+    background-color:#000000;
+    color: white;
+    border-radius: 2px;
+    width: 30px;
+    margin-left: 5px;
+    cursor: pointer;
+
+}

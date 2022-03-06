@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Clock</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+
+<body>
+    <div class="container">
+        <div id="display">
+            <h1 id="stopwatch"><span id="min">00</span> : <span id="sec">00</span></h1>
+            
+        </div>
+        <div id="timercontainer">
+            <!-- <h1 id="heading">Session <span id="session">0</span></h1> -->
+            
+            <div id="clock" style="height: 40px; background-color: rgb(0, 0, 0);margin-top: 10px;">
+                
+                <h1 id="currtime" style="color: aliceblue; text-align: center;">00:00:00</h1>
+    
+            </div>
+            <p>......................................................................................</p>
+            
+            <div id="timers">
+                <div class="time">
+                    <h3 >Session Time</h3>
+                    <h3 id="studying"><span id="sessiontimer">0</span> min</h3>
+                    <button id="increasesessiontime" class="smallbtn">+</button>
+                    <button id="decreasesessiontime" class="smallbtn">-</button>
+                </div>
+                <div class="time">
+                    <h3 >Break Time</h3>
+                    <h3 id="playing"><span id="breaktimer">0</span> min</h3>
+                    <button id="increasebreaktime" class="smallbtn">+</button>
+                    <button id="decreasebreaktime"class="smallbtn">-</button>
+                </div>
+                
+            </div>
+            <div id="buttons">
+                <br>
+                <p>.....................................................................................</p>
+                <button id="start" class="button">Start</button>
+                <!-- <button id="start1" class="button" style="display: none;">Start</button> -->
+                
+                <button id="pause" class="button" style="display: none;">Pause</button>
+                <!-- <button id="pause1" class="button" style="display: none;">Pause</button> -->
+                <button id="reset" class="button">Reset</button>
+                
+            </div>
+        </div>
+        
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
+ <!-- "service_worker": "index.js", -->
+ <!-- "scripts":["index.js"], -->

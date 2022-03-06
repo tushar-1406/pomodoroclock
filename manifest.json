@@ -1,0 +1,21 @@
+{
+    "name":"pomodoro clock",
+    "version":"0.0.1",
+    "manifest_version":2,
+    "browser_action":{
+        "default_popup":"index.html",
+        "default_icon":"clock.png"
+
+    },
+   
+    "background": {
+     
+        "scripts":["index.js"],
+        "persistent":false
+      },
+    "icons":{
+        "128":"clock.png"
+    },
+    "permissions":["tabs"]
+   
+}
